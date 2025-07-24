@@ -13,6 +13,75 @@ Each task is stored with a simple status (done / not done), and the menu is deco
 
 ---
 
+## 📸 Demo
+
+Welcome to the To-Do List App!
+
+What would you like to do?
+
+Add Task
+
+View Tasks
+
+Mark Task as Completed
+
+Delete Task
+
+Exit
+
+Enter your choice: 1
+Enter the task description: Finish Java project
+Task added successfully!
+
+What would you like to do?
+
+Add Task
+
+View Tasks
+
+Mark Task as Completed
+
+Delete Task
+
+Exit
+
+Enter your choice: 2
+Your Tasks:
+
+Finish Java project [Pending]
+
+Enter your choice: 3
+Enter the task number to mark as completed: 1
+Task marked as completed!
+
+Enter your choice: 2
+Your Tasks:
+
+Finish Java project [✅ Completed]
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ How It Works
+
+The app uses a `Task` class to represent each task with:
+- A description
+- A status flag for completion
+
+All tasks are stored in an `ArrayList<Task>`. The program runs in a loop allowing users to interact with the list using numbers to choose actions.
+
+---
+
+## 🚀 How to Run
+
+1. Make sure Java is installed on your system.
+2. Clone this repository or download the `.java` file.
+3. Compile and run the code
+
+
 ## 🛠 Features Implemented
 - Dynamic list using `ArrayList`
 - Menu-driven CLI with `Scanner`
