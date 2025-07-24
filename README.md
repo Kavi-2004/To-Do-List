@@ -50,18 +50,6 @@ Your Tasks:
 
 Finish Java project [Pending]
 
-Enter your choice: 3
-Enter the task number to mark as completed: 1
-Task marked as completed!
-
-Enter your choice: 2
-Your Tasks:
-
-Finish Java project [✅ Completed]
-
-yaml
-Copy
-Edit
 
 ---
 
